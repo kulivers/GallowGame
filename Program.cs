@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace GallowGame
 {
@@ -6,7 +7,7 @@ namespace GallowGame
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Garrow garrow = new Garrow();
         }
     }
 }
