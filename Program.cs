@@ -8,6 +8,8 @@ namespace GallowGame
         static void Main(string[] args)
         {
             Garrow garrow = new Garrow();
+            garrow.StartTheGame();
+            
         }
     }
 }
